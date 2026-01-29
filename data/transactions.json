@@ -1,0 +1,45 @@
+{
+  "ticketConfig": [
+    {
+      "ticketName": "뮤지컬 S석",
+      "availableDates": {
+        "start": "2024-01-01",
+        "end": "2025-12-31"
+      },
+      "basePrice": 150000
+    },
+    {
+      "ticketName": "콘서트 VIP 티켓",
+      "availableDates": {
+        "start": "2024-01-01",
+        "end": "2025-12-31"
+      },
+      "basePrice": 300000
+    },
+    {
+      "ticketName": "스포츠 경기 일반석",
+      "availableDates": {
+        "start": "2024-01-01",
+        "end": "2025-12-31"
+      },
+      "basePrice": 100000
+    },
+    {
+      "ticketName": "전시회 입장권",
+      "availableDates": {
+        "start": "2024-01-01",
+        "end": "2025-12-31"
+      },
+      "basePrice": 20000
+    },
+    {
+      "ticketName": "페스티벌 패스",
+      "availableDates": {
+        "start": "2024-06-01",
+        "end": "2024-08-31"
+      },
+      "basePrice": 250000
+    }
+  ],
+  "transactions": []
+}
