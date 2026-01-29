@@ -46,11 +46,14 @@ export default function AdminPage() {
     setMounted(true);
     
     // 티켓 설정 초기화 (고정된 판매량으로)
-    const initialTickets = (transactionsData as DataStructure).ticketConfig?.map((t, index) => ({
-      ...t,
+    const data = transactionsData as unknown as DataStructure;
+    const initialTickets = (data.ticketConfig || []).map((t, index) => ({
+      ticketName: t.ticketName,
+      availableDates: t.availableDates,
+      basePrice: t.basePrice,
       stock: 1000,
       sold: [120, 85, 200, 45, 150][index] || 0, // 고정된 값
-    })) || [];
+    }));
     setTicketConfig(initialTickets);
 
     // 판매 내역 예시 데이터 생성
