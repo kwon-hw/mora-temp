@@ -41,5 +41,12 @@
       "basePrice": 250000
     }
   ],
-  "transactions": []
+  "transactions": [],
+  "monitorConfig": {
+    "normalBuyerCount": 7,
+    "suspiciousBuyerCount": 3,
+    "normalPurchasePerTicket": 8,
+    "suspiciousPurchaseCounts": [10, 12, 14],
+    "suspiciousThreshold": 10
+  }
 }
